@@ -1,6 +1,17 @@
 Meaningful Versions (meanver)
 =============================
 
+TL;DR
+-----
+
+progressbar 2.x gets released under the name progressbar2 AND imported as
+`progressbar2` to match.  This allows it to coexist with other major versions.
+If backwards compatibility means something other than API (e.g. code formatter)
+then tell a story about what it means to you.
+
+Definition
+----------
+
 We love semver, for languages that support its goals well.  This addition adapts
 it for better Python compatibility in large-scale systems like monorepos.
 
